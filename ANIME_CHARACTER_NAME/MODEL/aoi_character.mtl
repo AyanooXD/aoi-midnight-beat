@@ -1,0 +1,153 @@
+# Blender 4.2.0 MTL File: 'aoi_asset.blend'
+# www.blender.org
+
+newmtl M_Brow
+Ns 176.400024
+Ka 1.000000 1.000000 1.000000
+Kd 0.330000 0.245000 0.290000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl M_Cloth_Inner
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../TEXTURES/aoi_cloth_inner_basecolor.png
+map_Ns ../TEXTURES/aoi_cloth_inner_roughness.png
+
+newmtl M_Cloth_Outer
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../TEXTURES/aoi_cloth_outer_basecolor.png
+map_Ns ../TEXTURES/aoi_cloth_outer_roughness.png
+
+newmtl M_Cloth_Trim
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../TEXTURES/aoi_cloth_trim_basecolor.png
+map_Ns ../TEXTURES/aoi_cloth_trim_roughness.png
+
+newmtl M_Denim
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../TEXTURES/aoi_denim_basecolor.png
+map_Ns ../TEXTURES/aoi_denim_roughness.png
+
+newmtl M_Eye
+Ka 1.000000 1.000000 1.000000
+Ks 0.850000 0.850000 0.850000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../TEXTURES/aoi_eye_basecolor.png
+map_Ns ../TEXTURES/aoi_eye_roughness.png
+
+newmtl M_Face
+Ns 336.400055
+Ka 1.000000 1.000000 1.000000
+Kd 0.855000 0.330000 0.360000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl M_Hair
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../TEXTURES/aoi_hair_basecolor.png
+map_Ns ../TEXTURES/aoi_hair_roughness.png
+
+newmtl M_Lash
+Ns 384.399994
+Ka 1.000000 1.000000 1.000000
+Kd 0.075000 0.065000 0.105000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl M_LashLow
+Ns 302.500000
+Ka 1.000000 1.000000 1.000000
+Kd 0.300000 0.235000 0.285000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl M_Metal
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd ../TEXTURES/aoi_metal_basecolor.png
+map_Ns ../TEXTURES/aoi_metal_roughness.png
+map_refl ../TEXTURES/aoi_metal_metallic.png
+
+newmtl M_Rubber
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../TEXTURES/aoi_rubber_basecolor.png
+map_Ns ../TEXTURES/aoi_rubber_roughness.png
+
+newmtl M_Shoe
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../TEXTURES/aoi_shoe_basecolor.png
+map_Ns ../TEXTURES/aoi_shoe_roughness.png
+
+newmtl M_Skin
+Ka 1.000000 1.000000 1.000000
+Ks 0.420000 0.420000 0.420000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd ../TEXTURES/aoi_skin_basecolor.png
+map_Ns ../TEXTURES/aoi_skin_roughness.png
+
+newmtl M_Socket
+Ns 291.599945
+Ka 1.000000 1.000000 1.000000
+Kd 0.965000 0.930000 0.935000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2

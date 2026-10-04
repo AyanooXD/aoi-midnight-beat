@@ -1,0 +1,129 @@
+PRODUCT
+-------
+Name:     AOI - Midnight Beat | Original Anime Streetwear Girl
+Tagline:  Midnight-violet twin tails, bomber and headphones - a stylized
+          real-time anime character, fully clothed and marketplace-ready.
+
+
+TITLE
+-----
+Original Anime Streetwear Girl 3D Character - AOI Midnight Beat | Stylized
+Game & VTuber Asset | 50.7k tris | PBR Textures | 53 Objects | OBJ + MTL
+
+
+SHORT DESCRIPTION
+-----------------
+AOI Midnight Beat is an original, fully clothed anime-style adult female
+character built for real-time use. She has midnight-violet twin tails with a
+periwinkle gradient, large anime eyes, a cropped bomber jacket with ribbed
+trim, a pleated A-line skirt, mid-calf socks, sneakers, over-ear headphones and
+a choker. 53 neatly named objects, 15 PBR materials, clean quad topology, UVs
+on every object and a verified OBJ + MTL package.
+
+
+FULL DESCRIPTION
+----------------
+Overview
+A stylized adult anime girl with a confident, friendly expression, designed as
+a professional game / VTuber character asset rather than a render-only model.
+Proportions are 6.5 heads tall and 1.64 m, deliberately fashion-stylized rather
+than anatomically exaggerated.
+
+Style
+Anime-inspired facial proportions with large defined eyes, a small nose and a
+soft closed-lip smile. Characteristic midnight charcoal-violet hair that
+gradients to periwinkle at the tips, twin tails bound with matching ribbons.
+Outfit is a cropped midnight bomber jacket over an off-white top, pleated
+midnight skirt, off-white socks and dark sneakers, finished with over-ear
+headphones and a thin choker with a small metal ring.
+
+What you receive
+- MODEL/aoi_character.obj and aoi_character.mtl
+- 53 separately named objects (body, head, eyes, hair, jacket, top, skirt,
+  socks, shoes, headphones, ribbons, choker and more)
+- 15 PBR materials: 10 textured, 5 flat-colour accents
+- 31 original PNG textures: base color, roughness, normal, metallic and AO
+- 8 preview renders (hero, front, side, back, face, details, wireframe, texture sheet)
+
+Materials
+Principled BSDF / PBR. Skin with subsurface scattering, hair with a sheen
+lobe, metal fully metallic with a metallic map. The eye material carries a
+drawn iris, pupil, limbal ring and specular highlights.
+
+Textures
+31 PNG files. Base Color, Roughness and Normal on the main sets; AO on
+skin, hair, jacket, trim, inner cloth, denim and shoe; a Metallic map on the
+metal. Every map was generated procedurally for this asset, so all commercial
+rights are clean.
+
+UV information
+Every one of the 53 objects has UVs, unwrapped with angle-limited smart
+projection and packed inside 0..1 with no cross-object overlap. The eyes use a
+dedicated atlas region so the eye artwork lines up across the geometry.
+
+Polygon information
+25546 vertices / 26266 faces / 50748 triangles / 53 objects.
+A light real-time budget suitable for mobile and stylised real-time titles.
+
+Intended use
+Games (mobile, indie, stylised PC/console), VTuber and streaming avatars,
+animation, product visualisation and advertising.
+
+Compatibility
+- Blender 4.2+ (built and exported from Blender)
+- Maya, 3ds Max, Cinema 4D, Unreal Engine, Unity, Godot, Substance Painter,
+  any toolchain that reads OBJ + MTL
+- Y-up OBJ (standard interchange); imported Z-up it stands 1.638 m tall,
+  faces -Y, with the origin at the centre of the feet
+- Metres, 1 unit = 1 m, no object has non-unit scale
+- Non-PBR software shows flat colours for the 5 accent materials; assign your
+  own base colour there if needed
+
+Originality
+100% original character. She does not depict any existing anime or game
+character. No logos, brand marks or trademarked designs are included, and no
+third-party model or texture was used.
+
+
+FEATURES
+--------
+- Complete original adult character: head, ears, neck, torso, arms, hands with
+  fingers, legs, feet and facial geometry
+- Large anime eyes with real socket dish and convex cornea geometry
+- Hair split into scalp, back mass, parted fringe, side locks and twin tails
+- Full outfit: bomber jacket, ribbed collar and hem, inner top, 12-pleat skirt,
+  socks, sneakers with separate soles, headphones, ribbons and choker
+- Exactly mirrored left/right geometry (verified 1.0000 symmetry)
+- Clean quad topology, no non-manifold edges, no inverted windings
+- All object transforms baked; every object at identity scale
+- UVs on all 53 objects, packed 0..1, no overlap
+- 15 logically separated PBR materials
+- 38+ original procedural textures including normal maps derived from height
+- 50748-triangle real-time friendly budget
+- OBJ + MTL, verified by re-import into a clean scene
+
+
+TECHNICAL SPECIFICATION
+-----------------------
+Polygon count ......... 50748 triangles (26266 faces)
+Vertex count .......... 25546 vertices
+Object count .......... 53 named objects
+Material count ........ 15 (10 textured, 5 flat accent)
+Texture count ......... 31 PNG files
+Texture resolution .... 1024x1024 (skin, hair, cloth, denim, shoe),
+                        2048x2048 (eye), 512x512 (metal, rubber)
+UV availability ........ all 53 objects, packed 0..1, no overlap
+File formats .......... OBJ, MTL, PNG
+Units / scale ......... metres, 1 unit = 1 m, Y-up, facing -Y, feet at Z=0
+Height ................ 1.638 m
+Bounding box .......... 0.485 m (X) x 0.211 m (Y)
+Includes .............. OBJ + MTL, 31 textures, 8 preview renders, README
+
+
+KEYWORDS
+--------
+anime character, 3d character model, game character, stylized character,
+anime girl, vtuber model, anime asset, cartoon character, game ready character,
+real time character, mobile game character, 3d model, obj export, pbr
+textures, anime hair, twin tails, streetwear, bomber jacket, character pack,
+game dev asset, rigged-friendly mesh, low poly anime

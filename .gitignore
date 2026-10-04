@@ -1,0 +1,10 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.env
+
+# local attachments and sandbox scratch - not part of the deliverable
+.cloudforge/
+__pycache__/
+*.blend1
