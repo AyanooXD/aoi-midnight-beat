@@ -30,7 +30,11 @@ def fbm(h, w, octaves=5, base=4, persist=0.55, seed=0):
 
 
 def height_to_normal(hgt, strength=1.0):
-    """Sobel-gradient normal map from a height field. Returns RGB uint8."""
+    """Sobel-gradient normal map from a height field. Returns FLOAT 0..1.
+
+    Return type must stay float: save() scales 0..1 by 255, so returning uint8
+    here would be multiplied by 255 a second time and saturate to pure white.
+    """
     h, w = hgt.shape
     gy, gx = np.gradient(hgt.astype(np.float32))
     scale = strength * 6.0
@@ -39,8 +43,7 @@ def height_to_normal(hgt, strength=1.0):
     nz = np.ones_like(nx)
     ln = np.sqrt(nx * nx + ny * ny + nz * nz)
     nx, ny, nz = nx / ln, ny / ln, nz / ln
-    rgb = np.stack([(nx * 0.5 + 0.5), (ny * 0.5 + 0.5), (nz * 0.5 + 0.5)], -1)
-    return (rgb * 255).clip(0, 255).astype(np.uint8)
+    return np.stack([(nx * 0.5 + 0.5), (ny * 0.5 + 0.5), (nz * 0.5 + 0.5)], -1)
 
 
 def ao_from_height(hgt, radius=9):
@@ -53,9 +56,15 @@ def ao_from_height(hgt, radius=9):
 
 
 def save(arr_rgb, name):
+    """Save an RGB float map in 0..1.
+
+    MUST scale by 255 before casting: astype(np.uint8) on 0..1 floats
+    truncates everything to 0 or 1, which silently ships black textures.
+    """
     os.makedirs(OUT, exist_ok=True)
     p = os.path.join(OUT, name)
-    Image.fromarray(arr_rgb.astype(np.uint8), "RGB").save(p, optimize=True)
+    a = np.clip(np.asarray(arr_rgb, np.float32), 0.0, 1.0) * 255.0
+    Image.fromarray(a.round().astype(np.uint8), "RGB").save(p, optimize=True)
     return p
 
 

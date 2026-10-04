@@ -42,18 +42,21 @@ def build_studio(res=(1200, 1600), samples=96, floor=True):
     sc.world = world
     world.use_nodes = True
     bg = world.node_tree.nodes["Background"]
-    bg.inputs[0].default_value = (0.150, 0.162, 0.195, 1.0)
+    # Lighting is calibrated against the REAL (non-black) albedo textures.
+    # Previously tuned while textures were shipping black, which made the rig
+    # far too hot once correct albedo arrived.
+    bg.inputs[0].default_value = (0.090, 0.098, 0.118, 1.0)
     bg.inputs[1].default_value = 1.0
 
     T = (0, 0, 0.86)
-    area("Key", (-1.55, -1.85, 1.95), T, 2.0, 1150, (1.0, 0.97, 0.94))
-    area("Fill", (2.05, -1.30, 1.10), T, 2.6, 420, (0.90, 0.94, 1.0))
-    area("Rim", (0.70, 2.30, 1.95), T, 1.6, 1350, (0.86, 0.90, 1.0))
-    area("Bounce", (0.0, -1.10, -0.15), T, 3.0, 210, (1.0, 1.0, 1.0))
-    area("FaceLight", (0.0, -0.95, 1.62), (0, 0, 1.50), 0.8, 190, (1.0, 0.98, 0.97))
+    area("Key", (-1.55, -1.85, 1.95), T, 2.0, 400, (1.0, 0.97, 0.94))
+    area("Fill", (2.05, -1.30, 1.10), T, 2.6, 145, (0.90, 0.94, 1.0))
+    area("Rim", (0.70, 2.30, 1.95), T, 1.6, 480, (0.86, 0.90, 1.0))
+    area("Bounce", (0.0, -1.10, -0.15), T, 3.0, 60, (1.0, 1.0, 1.0))
+    area("FaceLight", (0.0, -0.95, 1.62), (0, 0, 1.50), 0.8, 90, (1.0, 0.98, 0.97))
     # dedicated facial key so close-ups stay readable
-    area("FaceKey", (-0.45, -0.72, 1.60), (0, 0.02, 1.505), 0.55, 260, (1.0, 0.98, 0.96))
-    area("FaceFill", (0.52, -0.60, 1.50), (0, 0.02, 1.505), 0.55, 120, (0.94, 0.96, 1.0))
+    area("FaceKey", (-0.45, -0.72, 1.60), (0, 0.02, 1.505), 0.55, 120, (1.0, 0.98, 0.96))
+    area("FaceFill", (0.52, -0.60, 1.50), (0, 0.02, 1.505), 0.55, 58, (0.94, 0.96, 1.0))
 
     if floor:
         me = bpy.data.meshes.new("Floor")
